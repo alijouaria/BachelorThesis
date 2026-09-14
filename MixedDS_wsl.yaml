@@ -1,0 +1,21 @@
+# MixedDS.yaml version WSL (Linux paths)
+
+train:
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/LeafminerOnly/train/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Noisy tiled DS/train/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Tomato Leaf Disease.v6i.yolov8/train/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Tomato pest-diseases.v1-tomato_v1.yolov8/train/images"
+
+val:
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/LeafminerOnly/val/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Tomato Leaf Disease.v6i.yolov8/val/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Noisy tiled DS/val/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Tomato pest-diseases.v1-tomato_v1.yolov8/valid/images"
+
+test:
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/LeafminerOnly/test/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Noisy tiled DS/test/images"
+  - "/mnt/c/Users/alijo/OneDrive/Desktop/Tomato pest-diseases.v1-tomato_v1.yolov8/test/images"
+
+nc: 1
+names: ['leafminer']

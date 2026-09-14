@@ -1,0 +1,24 @@
+# data_leafminer_mixed.yaml
+
+# on mélange clean + noisy pour le train
+train:
+  - C:/Users/alijo/OneDrive/Desktop/LeafminerOnly/train/images
+  - C:/Users/alijo/OneDrive/Desktop/Noisy tiled DS/train/images
+  - C:\Users\alijo\OneDrive\Desktop\Tomato Leaf Disease.v6i.yolov8\train/images
+  - C:\Users\alijo\OneDrive\Desktop\Tomato pest-diseases.v1-tomato_v1.yolov8\train/images
+
+# on valide sur le clean (plus propre)
+val:
+  - C:/Users/alijo/OneDrive/Desktop/LeafminerOnly/val/images
+  - C:\Users\alijo\OneDrive\Desktop\Tomato Leaf Disease.v6i.yolov8\val/images
+  - C:\Users\alijo\OneDrive\Desktop\Noisy tiled DS\val/images
+  - C:\Users\alijo\OneDrive\Desktop\Tomato pest-diseases.v1-tomato_v1.yolov8\valid/images
+
+# on garde les deux tests pour comparer
+test:
+  - C:/Users/alijo/OneDrive/Desktop/LeafminerOnly/test/images
+  - C:/Users/alijo/OneDrive/Desktop/Noisy tiled DS/test/images
+  - C:\Users\alijo\OneDrive\Desktop\Tomato pest-diseases.v1-tomato_v1.yolov8\test/images
+
+nc: 1
+names: ['leafminer']

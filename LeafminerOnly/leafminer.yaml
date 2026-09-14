@@ -1,0 +1,8 @@
+# auto-generated single-class dataset
+path: C:/Users/alijo/OneDrive/Desktop/LeafminerOnly
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names: ['leafminer']
